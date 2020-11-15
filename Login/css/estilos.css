@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, #f49819, #6ab42d);
+    padding: 20px;
+}
+
+.container-all {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+
+
+
+
+.ctn-form {
+    width: 80%;
+    padding: 40px;
+    background: #f7f7f7;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    color: #a7a7a7;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    color: #f49819;
+    font-size: 16px;
+    
+
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    background: linear-gradient(90deg, #f49819, #f49819);
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(90deg, #6ab42d, #6ab42d);
+}
+
+
+.text-footer {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    color: #7a7a7a;
+    font-weight: 300;
+
+}
+
+.text-footer a{
+    color: #6ab42d;
+    font-weight: 500;
+}
+
+
+/* LADO DERECHO */
+
+.ctn-text {
+    width: 100%;
+    background-image: url(../img/zanahoria.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    position: relative;
+
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #f49819, #f49819);
+    opacity: 0.5;
+}
+
+
+.title-description {
+    position: relative;
+    top: 80px;
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.text-description {
+    position: relative;
+    top: 110px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/** TEXTO DE ERROR**/
+
+.msg-error{
+    color: red;
+    display: block;
+    margin-top: 10px;
+}
+
+/* BIENVENIDA */
+
+.ctn-welcome{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    border-radius: 20px;
+
+}
+
+.logo-welcome{
+    width: 200px;
+    margin: 20px;
+
+}
+
+.title-wecome{
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+
+.title-wecome b{
+    color: #f49819;
+}
+
+.close-sesion{
+    width: 20%;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #242424, #242424);
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 20px;
+    
+}
+
+.close-sesion:hover {
+    background: linear-gradient(90deg, #6ab42d, #6ab42d);
+}
+
+.ininav{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #f49819, #f49819);
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+.ininav:hover {
+    background: linear-gradient(90deg, #6ab42d, #6ab42d);
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 800px) {
+
+    .ctn-text{
+        display: none;
+    }
+
+    .ctn-form{
+      margin: auto;
+      width: 100%;
+      background: white;
+
+
+    }
+}
+@media screen and (max-width: 500px){
+    .title-wecome {
+        font-weight: 400;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
